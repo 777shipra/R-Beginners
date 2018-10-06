@@ -4,21 +4,20 @@
 ## A vector is the sequence of data element of the same basic type. The name vector comes from linear algebra because R being a statistical language .
 
 ## for example
-### 11 22 123 45 67 78 9 (this is a NUMERIC VECTOR) basically a sequence containing numbers either integer or double type.
+ 11 22 123 45 67 78 9 (this is a NUMERIC VECTOR) basically a sequence containing numbers either integer or double type.
 if u have studied other programming languages a vector is just same as an array just the index section begins from 1 not 0
 
-### "a" "e" "r" "g" "y" (this is a CHARACTER VECTOR of length 5)
+ "a" "e" "r" "g" "y" (this is a CHARACTER VECTOR of length 5)
 index being 1 2 3 4 5
 
-<<<<<<< HEAD
-##In R everything is stored in form of vectors , even a single number is stored as a vector .
-###27   number 27 is a vector of length 1
+ In R everything is stored in form of vectors , even a single number is stored as a vector .
+27   number 27 is a vector of length 1
 
 #VECTORIZED OPERATIONS
 
 ## R being a vectorized programming language makes it very easy to perform arithmetic operations between two vectors (arrays) as compared to other programming languages
 
-##for example
+## for example
 let there be two NUMERIC vectors of length 10
 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 
@@ -63,7 +62,4 @@ now what ? well .... RECYCLING will take place but with a warning
 | 2 | 3 | 4 | 5 | 6 || 2 | 3 | 4 | 5 |
                 +
 | 1 | 5 | 6 | 3 | 8 | 9 | 5 | 88 | 77 |
-=======
-## In R everything is stored in form of vectors , even a single number is stored as a vector .
-### 27   number 27 is a vector of length 1
->>>>>>> eb76f6d62b7483053dfbc695c31092ec4cda7299
+
