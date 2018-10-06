@@ -13,7 +13,7 @@ index being 1 2 3 4 5
  In R everything is stored in form of vectors , even a single number is stored as a vector .
 27   number 27 is a vector of length 1
 
-#VECTORIZED OPERATIONS
+# VECTORIZED OPERATIONS
 
 ## R being a vectorized programming language makes it very easy to perform arithmetic operations between two vectors (arrays) as compared to other programming languages
 
