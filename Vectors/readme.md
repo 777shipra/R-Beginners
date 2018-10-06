@@ -19,6 +19,7 @@ index being 1 2 3 4 5
 
 ## for example
 let there be two NUMERIC vectors of length 10
+
 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 
 | 1 | 5 | 6 | 3 | 8 | 9 | 5 | 88 | 77 | 6 |
@@ -59,7 +60,7 @@ but  what when the set will not be repeated completely like
 Now the first vector is of length 5 and second is of length 9
 
 now what ? well .... RECYCLING will take place but with a warning
-| 2 | 3 | 4 | 5 | 6 || 2 | 3 | 4 | 5 |
+| 2 | 3 | 4 | 5 | 6 | 2 | 3 | 4 | 5 |
                 +
 | 1 | 5 | 6 | 3 | 8 | 9 | 5 | 88 | 77 |
 
