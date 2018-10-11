@@ -1,7 +1,7 @@
-# <---------------------GUIDE FOR THIS SECTION --------------------->
+# <----------------GUIDE FOR THIS SECTION ------------->
 
-# <-------------- HOW TO DOWNLOAD/USE THE DATASET ------------------------->
- [GO TO] (superdatascience.com/rcourse/) -> (scroll down to )SECTION4 -MATRICES -> download BASKETBALL DATASET
+# <-------- HOW TO DOWNLOAD/USE THE DATASET ---------->
+ [GO TO] (https://www.superdatascience.com/rcourse/) -> (scroll down to )SECTION4 -MATRICES -> download BASKETBALL DATASET
  -> DOWNLOAD THE ZIP FILE
  UNZIP THE S4-basketballdata.r file
  open the file in R studio
