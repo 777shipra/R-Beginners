@@ -1,6 +1,6 @@
 # <----------------GUIDE FOR THIS SECTION ------------->
 
-# <-------- HOW TO DOWNLOAD/USE THE DATASET ---------->
+# <-------- HOW TO DOWNLOAD/USE THE DATASET -------->
  [GO TO] (https://www.superdatascience.com/rcourse/) -> (scroll down to )SECTION4 -MATRICES -> download BASKETBALL DATASET
  -> DOWNLOAD THE ZIP FILE
  UNZIP THE S4-basketballdata.r file
