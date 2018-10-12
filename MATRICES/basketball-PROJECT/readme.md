@@ -29,7 +29,7 @@ a table will look like this , a table of two dimention containing 4 columns and 
 
                    22 | 33 | 44 | 55 
                    -- | -- | -- | --
- A=                11 | 32 | 45 | 67
+                   11 | 32 | 45 | 67
                    34 | 64 | 78 | 90
 
 ### accessing the elements
