@@ -18,8 +18,10 @@
  
  we know that a vector in r is 
   1   2    3    4
+  
  22 | 33 | 44 | 55
  -- | -- | -- | --
+
 this contain only one dimention but tables contain more set of dimentions
 (NOTE)-> matrices in general contain one or more dimention but in R one dimention is a vector as studied previously .
 
