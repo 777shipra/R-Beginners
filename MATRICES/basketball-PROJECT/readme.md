@@ -34,13 +34,13 @@ a table will look like this , a table of two dimention containing 4 columns and 
 
 ### accessing the elements / INDEXATION 
 
-LET this be matrix A
-so in matrix A above if u want to access any element the syntax would be -> NameOfMatrix[row number , colunm number]
-for example:- for element 78 -> A[3,3] which means get the element which is  on 3rd position of 3rd row inside matrix A 
-for element 90 -> A[3,4]
-for element 22 -> A[1,1]
-for selecting complete 1st row -> A[1,] 
-for selecting complete 3rd row -> A[,3]
+LET this be matrix A\
+so in matrix A above if u want to access any element the syntax would be -> NameOfMatrix[row number , colunm number]\
+for example:- for element 78 -> A[3,3] which means get the element which is  on 3rd position of 3rd row inside matrix A\ 
+for element 90 -> A[3,4]\
+for element 22 -> A[1,1]\
+for selecting complete 1st row -> A[1,]\ 
+for selecting complete 3rd row -> A[,3]\
 
 (NOTE) :- indexes in r starts with 1 not 0
 
