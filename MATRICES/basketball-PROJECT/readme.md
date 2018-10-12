@@ -12,3 +12,9 @@
 
 
  THE FILE "S4-basketballdata.r" IS PRESENT IN THIS FOLDER AS WELL AS ZIP BASKETBALL DATASET FOLDER
+ 
+ # what are MATRICES ?
+ Most of the data will be given to us in the form of table format and to operate with tables it is important to know about MATRICES
+ 
+ we know that a vector in r is 
+ 22 | 33 | 44 | 55 
