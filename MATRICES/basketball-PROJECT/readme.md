@@ -17,12 +17,23 @@
  Most of the data will be given to us in the form of table format and to operate with tables it is important to know about MATRICES
  
  we know that a vector in r is 
-  1   2    3    4
+ 
   
  22 | 33 | 44 | 55
  -- | -- | -- | --
 
-this contain only one dimention but tables contain more set of dimentions
+this contain only one dimention with for indexes (1,2,3,4) but tables contain more set of dimentions
 (NOTE)-> matrices in general contain one or more dimention but in R one dimention is a vector as studied previously .
 
-a table will look like this 
+a table will look like this , a table of two dimention containing 4 columns and 3 rows . so this is how a matrix look like 
+
+                   22 | 33 | 44 | 55 
+                   -- | -- | -- | --
+ A=                11 | 32 | 45 | 67
+                   34 | 64 | 78 | 90
+
+### accessing the elements
+
+
+
+
