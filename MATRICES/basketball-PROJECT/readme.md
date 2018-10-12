@@ -17,4 +17,6 @@
  Most of the data will be given to us in the form of table format and to operate with tables it is important to know about MATRICES
  
  we know that a vector in r is 
- 22 | 33 | 44 | 55 
+ 
+ 22 | 33 | 44 | 55
+ -- | -- | -- | --
