@@ -44,4 +44,4 @@ for selecting complete 3rd row -> A[,3]\
 
 (NOTE) :- indexes in r starts with 1 not 0
 
-
+You can also name the indexes instead of numbers
