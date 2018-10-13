@@ -1,5 +1,11 @@
 # <----------------GUIDE FOR THIS SECTION ------------->
 
+read the files in this order :-
+
+* complete the readme.md file first
+* read buildYourFirstMatrix.R file
+* read namingindexes.R
+
 # <-------- HOW TO DOWNLOAD/USE THE DATASET -------->
  [GO TO] (https://www.superdatascience.com/rcourse/) -> (scroll down to )SECTION4 -MATRICES -> download BASKETBALL DATASET\
  -> DOWNLOAD THE ZIP FILE\
