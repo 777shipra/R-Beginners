@@ -1,3 +1,15 @@
+# <--------GUIDE FOR THIS SECTION ------------>
+
+Read the files in follwing order :-
+
+* read the complete readme.md file
+* vectors.R file
+* []brackets.R file
+* the_power_of_vectorized_operations.R file
+* functions.R file
+* packages.R file
+
+
 # VECTOR
 
 
