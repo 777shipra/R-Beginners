@@ -1,5 +1,7 @@
 #<------------BASIC OPERATIONS WITH DATAFRAME-------------->
 
+# a data frame can store a mix of value type but a matrix can store elements of the same type
+
 #SUBSETTING DATAFRAME
 
 stats[1:10,]#show first 10 rows and all the columns
