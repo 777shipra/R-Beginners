@@ -50,3 +50,4 @@ YOU KNOW THAT E(X)=64.2 (see the normal distribution graph 34.1+34.1=62.2)
 
 check that MEAN (X)N -> E(X) as you re run your script while increasing the value of N .
 
+WRITE DOWN THE CODE and check your answer from the solution.R file .
