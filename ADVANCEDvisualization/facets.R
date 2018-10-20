@@ -1,74 +1,69 @@
 #using facets
-#allows to plot multiple plots
-
+#facets allow you to make alot of charts
 library(ggplot2)
-v<-ggplot(data = movies,aes(x=budgetmillions))
-v+geom_histogram(binwidth = 10,aes(fill=genre),
-                 color="black")
+x<- ggplot(data=movies , aes(x=budgetmillions))
+x+ geom_histogram(binwidth = 10,aes(fill=genre),
+                  color="black")
 
-#facets
-v+geom_histogram(binwidth = 10,aes(gill=genre),
-                 colour="black")+
-  facet_grid(genre~. , scales ="free" ) #ploting different plots for different values of genre
-#scales is to enlarge the plots
-
-#adding facets to scatterplots
-
-w<- ggplot(data=movies,aes(x=criticrating,y=audiencerating,color=genre))
-w+geom_point(size=3)
+#the above histogram is a little difficult to read but it would be easy if we make it for every value og genre
 
 
-#facets
-w+geom_point(size=3)+
+x+ geom_histogram(binwidth = 10,aes(fill=genre),
+                  color="black") + facet_grid( genre~.) #genre as rows 
+#too small to read
+
+x+ geom_histogram(binwidth = 10,aes(fill=genre),
+                  color="black") + facet_grid( genre~. , scales = "free")
+
+#adding facets to scatter plot
+
+x<- ggplot(data = movies,aes(x=criticrating ,y=audiencerating ,color=genre))
+
+x+geom_point(size=3)
+
+#facets:
+x+geom_point(size=3)+
   facet_grid(genre~.)
 
-w+ geom_point(size=3)+
+x+geom_point(size=3)+
   facet_grid(.~year)
 
-w+geom_point(size=3)+
+x+geom_point(size=3)+
   facet_grid(genre~year)
 
-w+geom_point(aes(size=budgetmillions))+
+x+geom_point(aes(size=budgetmillions))+
   geom_smooth()+
   facet_grid(genre~year)
 
-#in the above plot x co ordinates are okay but y co ordinates range from -50 to 150
+#we can see that y axis is from -50 to +100 every time so 
 
-#<-------CO ORDINATES----------->
+#<-----co ordinates------->
 
-m<- ggplot(data=movies,aes(x=criticrating , y=audiencerating,
-                           size=budgetmillions,
-                           color=genre))
+v<- ggplot(data = movies,aes(x=criticrating ,y=audiencerating ,color=genre,size=budgetmillions))
 
-m+geom_point()
+v+geom_point()
 
-#cutting off the limit
-m+geom_point()+
+
+#setting the limit of x/y axis 
+v+geom_point() +
   xlim(50,100)+
   ylim(50,100)
 
-#but it won't work in the all the cases
-#for example
+#the above won't work in the cases
+#example
 
-n<-ggplot(data=movies,aes(x=budgetmillions))
+n<- ggplot(data = movies,aes(x=budgetmillions))
 n+geom_histogram(binwidth = 10,aes(fill=genre),color="black")
 
-#adding limit
 n+geom_histogram(binwidth = 10,aes(fill=genre),color="black")+
   ylim(0,50)
 
-#instead of limit we will zoom 
-
-n+geom_histogram(binwidth = 10,
-                 aes(fill=genre),color="black")+
-  coord_cartesian(ylim = c(0,50)) #the data is still there unlike in the limit method it was removed
-#just a new layer is added in order to hide / zoom to the points we want
-
-#adding it to the graph
+#intead of that we will zoom 
+n+geom_histogram(binwidth = 10,aes(fill=genre),color="black")+
+  coord_cartesian(ylim=c(0,50))#the value will go as a range
 
 
-w+geom_point(aes(size=budgetmillions))+
-  geom_smooth()+
-  facet_grid(genre~year)+
-  coord_cartesian(ylim = c(0,100))
+#plotting the graph
+
+
 
