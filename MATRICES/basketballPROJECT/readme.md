@@ -2,6 +2,7 @@
 
 Read the files in this section in order given bellow(in R-Studios):-
 
+* read "The-Challenge.pdf" for understanding the task performed in this section
 * read s4-BasketballData.R and load the variables by selecting the whole code and pressing ctrl+Enter
 
 then go for files in this order
