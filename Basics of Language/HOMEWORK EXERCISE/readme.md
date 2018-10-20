@@ -21,6 +21,6 @@ from above example we said that the e(x)=0.5 , lets see how the value of (heads/
 
 NO OF COINT TOSSES | HEADS /TAIL VALUE (X bar n) | E(X) VALUE 
 ------------------ | --------------------------- | ----------
-       10  | 7 HEADS / 3 TAILS | 70%/30%
-       100 | 52 HEADS/48 TAILS | 52%/48%
-       1000 | 502 HEADS/ 498 TAILS | 50.2%/49.8%
+       10          | 7 HEADS / 3 TAILS           | 70%/30%
+       100         | 52 HEADS/48 TAILS           | 52%/48%
+       1000        | 502 HEADS/ 498 TAILS        | 50.2%/49.8%
