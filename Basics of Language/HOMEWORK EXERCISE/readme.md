@@ -17,10 +17,17 @@ we can say that in the total 100 coin tosses the expected value of heads is 50 a
 
 #####LLN states that as your n grows (n->infinty) your average of the actual value x (on the LHS) goes closer to the expected value E(x)
 
-from above example we said that the e(x)=0.5 , lets see how the value of (heads/tails) approaches to E(x) value as we are increasing the value of n from 10 - 1000
+from above example we said that the E(x)=0.5=50% , lets see how the value of (heads/tails) approaches to E(x) value as we are increasing the value of n from 10 - 1000
 
 NO OF COINT TOSSES | HEADS /TAIL VALUE (X bar n) | E(X) VALUE 
 ------------------ | --------------------------- | ----------
 10 | 7 HEADS / 3 TAILS | 70%/30%
 100 | 52 HEADS/48 TAILS | 52%/48%
 1000 | 502 HEADS/ 498 TAILS | 50.2%/49.8%
+
+
+Here we can see that as we increase the number of coin tosses the value actually moves closer to 50% . this is the LAW OF LARGE NUMBERS
+
+# NORMAL DISTRIBUTION
+
+Earlier in this section we used the rnorm() which is based on the normal distribution
