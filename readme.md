@@ -7,3 +7,5 @@ read the folder for this section in the following order:
 * MATRICS
 * DATAFRAMES
 * ADVANCEDvisulaization
+
+additional homework section is given with every folder for practice.
