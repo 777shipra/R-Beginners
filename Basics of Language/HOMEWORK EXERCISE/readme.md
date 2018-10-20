@@ -33,7 +33,7 @@ Here we can see that as we increase the number of coin tosses the value actually
 Earlier in this section we used the rnorm() which is based on the normal distribution
 this is how the normal distribution looks like
 
-1[NORMAL DISTRIBUTION](https://github.com/777shipra/R-Beginners/blob/master/Basics%20of%20Language/HOMEWORK%20EXERCISE/NORMAL%20DISTRIBUTION.png)
+![NORMAL DISTRIBUTION](https://github.com/777shipra/R-Beginners/blob/master/Basics%20of%20Language/HOMEWORK%20EXERCISE/NORMAL%20DISTRIBUTION.png)
 
 from the usage of the rnorm() , we saw that it generated the value in between -1-0-1 or between -2 & 2 and the likely hood of the rnorm function generating the number goes lower as the number moves further from -1 or 1 , can be interpreted from the graph
 
